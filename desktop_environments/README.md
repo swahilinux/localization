@@ -1,4 +1,4 @@
-#Desktop Environments
+# Desktop Environments
 
 A desktop environment [provides a set of applications and utilities](https://www.linux.com/news/whats-desktop-environment).
 
