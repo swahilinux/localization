@@ -20,10 +20,24 @@ If you are using a different .po editor and would wish to compile your translati
 **Verify**
 
 In order to verify a translations that were done by other contributors, first install the application using your particular distribution's guidelines
-After installing the application, ensure that the `swa_KE` locale has been enabled.
+
+After installing the application, ensure that the `swa_KE` locale has been enabled. To do [so](https://www.thomas-krenn.com/en/wiki/Configure_Locales_in_Ubuntu):
+```
+locale-gen sw_KE.UTF-8
+update-locale LANG=sw_KE.UTF-8
+```
+You may have to reboot for the changes to take effect
+
 Navigate to the `/usr/share/locale/sw_KE/LC_MESSAGES` directory. You may wish to create them if they are non-existant.
 Copy your compiled `.mo` files into `/usr/share/locale/sw_KE/LC_MESSAGES`
-Open a terminalemulator, and type `LANG=sw_KE` to set the system language to Swahili for the duration of the terminal session.
-Calling the application of interest from the terminal should give you the Swahili equivalent
 
 Should you notice discrepancies in the translation, feel free to modify the .po file in question and create a merge request
+
+**Todo**
+
+- Script that generates .pot files from .po files
+- Script to check installed applications on user's computer, and suggest applications to work on
+- Graphical display of % of work done on files
+- Allow for notifications whenever the source .pot file is modified in parent application's repository
+- Concurrently have developers submit pull requests to swahilinux and parent application's repository
+- Have a script to automate the _verify_ process
