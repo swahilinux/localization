@@ -8,7 +8,7 @@ One needs not be a developer to contribute to the swahili localization project. 
 
 **Translate**
 
-To translate on the project, identify an application of interest from the above list, it's `.po` file should be easily available in the repository. More applications should be added with time. It is however highly recommended to work on applications that are already on your system, so as to avoid the hustle of building the applications from source. A script to the effect is in the pipelines
+To translate on the project, identify an application of interest from the above list, it's `.po` file should be easily available in the repository. More applications should be added with time. It is however highly recommended to work on applications that are already on your system, so as to avoid the hustle of building the applications from source. A script to the effect is provided, `swahilisha.sh`
 
 Use your favourite `.po` editor to translate the strings in the file. [Poedit](https://poedit.net/) has been found to be efficient
 
@@ -36,7 +36,7 @@ Should you notice discrepancies in the translation, feel free to modify the .po 
 **Todo**
 
 - Script that generates .pot files from .po files
-- Script to check installed applications on user's computer, and suggest applications to work on
+- ~Script to check installed applications on user's computer, and suggest applications to work on~
 - Graphical display of % of work done on files
 - Allow for notifications whenever the source .pot file is modified in parent application's repository
 - Concurrently have developers submit pull requests to swahilinux and parent application's repository
