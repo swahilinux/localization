@@ -8,14 +8,14 @@ One needs not be a developer to contribute to the swahili localization project. 
 
 **Translate**
 
-To translate on the project, identify an application of interest from the above list, it's `.po` file should be easily available in the repository. More applications should be added with time.
+To translate on the project, identify an application of interest from the above list, it's `.po` file should be easily available in the repository. More applications should be added with time. It is however highly recommended to work on applications that are already on your system, so as to avoid the hustle of building the applications from source. A script to the effect is in the pipelines
 
 Use your favourite `.po` editor to translate the strings in the file. [Poedit](https://poedit.net/) has been found to be efficient
 
 Once you are satisfied with your work, saving the file should trigger an auto-compile by Poedit. After compilation, a binary file with a `.mo` extension should be generated on the same directory as the `.po` file.
 
 If you are using a different .po editor and would wish to compile your translation file, you can either use [an online converter](https://po2mo.net/) or run;
-`msgfmt -o lang.mo lang.po`
+`msgfmt -o file_name.mo file_name.po`
 
 **Verify**
 
