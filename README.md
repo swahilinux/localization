@@ -42,3 +42,4 @@ Should you notice discrepancies in the translation, feel free to modify the .po 
 - Concurrently have developers submit pull requests to swahilinux and parent application's repository
 - Have a script to automate the _verify_ process
 - Write script that extracts strings from applications that do not have .pot files
+- Have a script that installs all completed translations
